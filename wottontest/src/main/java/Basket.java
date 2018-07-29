@@ -10,7 +10,7 @@ public class Basket {
 
     public void AddToBasket(Product product, int count) {
         if (count < 1) {
-            throw new IllegalArgumentException(String.format("Product can not be added to basket with a negative count, count is: {0}", count));
+            throw new IllegalArgumentException(String.format("Product can not be added to basket with a negative count, count is: %1d", count));
         }
 
         if (product == null) {
@@ -20,7 +20,7 @@ public class Basket {
         String key = product.getId();
 
         if (_basket.containsKey(key)) {
-             BasketItem item = (BasketItem) _basket.get(key);
+             BasketItem item = _basket.get(key);
              item.IncrementCount(count);
         }
         else {
