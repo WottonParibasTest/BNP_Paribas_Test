@@ -47,7 +47,7 @@ Press any key to exit
 
 Other Notes:
 Since completing this Java test, as the role required the ability to develop in multiple languages, I thought I may take
-the opportunity to demostrate this.  So additionally I did the test in C# and Python.  For the different versions see:
+the opportunity to demonstrate this.  So additionally I did the test in C# and Python.  For the different versions see:
 
 The original Java version of the test I did is at:
 https://github.com/WottonParibasTest/BNP_Paribas_Test.git
