@@ -43,3 +43,22 @@ Total discount £1.20
 Balance to pay £5.10
 
 Press any key to exit
+
+
+Other Notes:
+Since completing this Java test, as the role required the ability to develop in multiple languages, I thought I may take
+the opportunity to demostrate this.  So additionally I did the test in C# and Python.  For the different versions see:
+
+The original Java version of the test I did is at:
+https://github.com/WottonParibasTest/BNP_Paribas_Test.git
+
+
+The C# version I thought rather than just port the Java code I have taken the opportunity to show how the basis for a
+more extensible approach could be applied if it was expected that more types of offer were expected. If no further types
+of offer were expected then the Java code is a simpler\quicker implementation which would suffice. Note that I have
+highlighted in the comments where appropriate how one would also achieve this in Java by using the Callable interface
+instead of delegates (function pointers).
+https://github.com/WottonParibasTest/AdditionalTestExampleCSharp.git
+
+Additionally I have written a python script version which demonstrates some functional programming:
+https://github.com/WottonParibasTest/AdditionalTestPython.git
